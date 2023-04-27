@@ -1,0 +1,5 @@
+practica 1
+Resolver el problema visto en clases pero con 3 elementos.
+Como matriz y luego ensamblando. Enfoque en el ensamblaje
+Programar
+Grafico solucion analitica vs solucion elementos finitos vs numero de elementos

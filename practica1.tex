@@ -1,0 +1,42 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage{float}				%Para poner las imagenes exactamente donde se me cante las pelotas en caso de quererlo, poniendole [H]
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{geometry}
+\usepackage{hieroglf}
+\usepackage{subcaption}
+\usepackage[justification=centering]{caption}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\geometry{
+a4paper,
+left=20mm,
+right=20mm,
+top=25mm,
+bottom = 20mm
+}
+\usepackage{float}
+\usepackage{units}
+\marginparwidth=2cm
+\usepackage[colorinlistoftodos]{todonotes}
+
+% \usepackage{hyperref}   %Esto es para ir a los links
+
+\title{\mathbf{Elementos Finitos \\Práctica 1}}
+\author{Universidad de Cuenca}
+\begin{document}
+\maketitle
+\begin{enumerate}
+    \item Considerar el problema visto en clases:
+    \begin{equation}
+        \int^l_0\frac{dw}{dx}EA\frac{du}{dx}dx-\int^l_0wbdx=0
+    \end{equation}
+    con las condiciones de Dirichlet y asumiendo que tanto EA como b son constantes. Resolver empleando el método de elementos finitos con 3 elementos (4 nodos) de dos maneras:
+    \begin{enumerate}
+        \item Obteniendo directamente la matriz de rigidez global y el vector de fuerza global.
+        \item Usando las matrices y vectores elementales y ensamblar.
+\end{enumerate}
+\end{document}
